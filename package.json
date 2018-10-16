@@ -1,0 +1,19 @@
+{
+  "name": "cyberme",
+  "version": "1.0.0",
+  "description": "Fun cyber conversation based on ELIZA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsepehr/cyberme.git"
+  },
+  "author": "Nima Sepehr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nsepehr/cyberme/issues"
+  },
+  "homepage": "https://github.com/nsepehr/cyberme#readme"
+}

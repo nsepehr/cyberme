@@ -1,0 +1,5 @@
+# Generated junk files
+.DS_Store
+
+# Node moduels
+node_modules
