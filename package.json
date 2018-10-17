@@ -2,8 +2,9 @@
   "name": "cyberme",
   "version": "1.0.0",
   "description": "Fun cyber conversation based on ELIZA",
-  "main": "index.js",
+  "private": true,
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +26,13 @@
     "react-dom": "^16.5.2"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.1.0"
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
   }
 }
