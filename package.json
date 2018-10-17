@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/nsepehr/cyberme/issues"
   },
-  "homepage": "https://github.com/nsepehr/cyberme#readme"
+  "homepage": "https://github.com/nsepehr/cyberme#readme",
+  "dependencies": {
+    "@progress/kendo-react-buttons": "^2.2.0",
+    "@progress/kendo-react-conversational-ui": "^2.2.0",
+    "@progress/kendo-react-intl": "^2.2.0",
+    "elizabot": "0.0.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.1.0"
+  }
 }
