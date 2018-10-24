@@ -5,18 +5,14 @@
     <title>Talk to Cyber Nima</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" />
-    <link type="text/css" rel="stylesheet" href="./all.css">
-    <style> body { font-family: "RobotoRegular",Helvetica,Arial,sans-serif; font-size: 14px; margin: 0; }        my-app, #vueapp { display: block; width: 100%; overflow: hidden; min-height: 80px; box-sizing: border-box; padding: 30px; }        my-app > .k-icon.k-i-loading, #vueapp > .k-icon.k-i-loading { font-size: 64px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }        .example-wrapper { min-height: 280px; align-content: flex-start; }        .example-wrapper p, .example-col p { margin: 20px 0 10px; }        .example-wrapper p:first-child, .example-col p:first-child { margin-top: 0; }        .example-col { display: inline-block; vertical-align: top; padding-right: 20px; padding-bottom: 20px; }        .example-config { margin: 0 0 20px; padding: 20px; background-color: rgba(0,0,0,.03); border: 1px solid rgba(0,0,0,.08); }        .event-log { margin: 0; padding: 0; max-height: 100px; overflow-y: auto; list-style-type: none; border: 1px solid rgba(0,0,0,.08); background-color: #fff; }        .event-log li {margin: 0; padding: .3em; line-height: 1.2em; border-bottom: 1px solid rgba(0,0,0,.08); }        .event-log li:last-child { margin-bottom: -1px;}        #vueapp:not([v-cloak]) > .k-icon.k-i-loading {display: none }        #vueapp[v-cloak] :not(.k-i-loading) { display: none; } </style>
+    <style> body {font-family: "RobotoRegular",Helvetica,Arial,sans-serif; font-size: 14px; margin: 0; }        my-app, #vueapp { display: block; width: 100%; overflow: hidden; min-height: 80px; box-sizing: border-box; padding: 30px; }        my-app > .k-icon.k-i-loading, #vueapp > .k-icon.k-i-loading { font-size: 64px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }        .example-wrapper { min-height: 280px; align-content: flex-start; }        .example-wrapper p, .example-col p { margin: 20px 0 10px; }        .example-wrapper p:first-child, .example-col p:first-child { margin-top: 0; }        .example-col { display: inline-block; vertical-align: top; padding-right: 20px; padding-bottom: 20px; }        .example-config { margin: 0 0 20px; padding: 20px; background-color: rgba(0,0,0,.03); border: 1px solid rgba(0,0,0,.08); }        .event-log { margin: 0; padding: 0; max-height: 100px; overflow-y: auto; list-style-type: none; border: 1px solid rgba(0,0,0,.08); background-color: #fff; }        .event-log li {margin: 0; padding: .3em; line-height: 1.2em; border-bottom: 1px solid rgba(0,0,0,.08); }        .event-log li:last-child { margin-bottom: -1px;}        #vueapp:not([v-cloak]) > .k-icon.k-i-loading {display: none }        #vueapp[v-cloak] :not(.k-i-loading) { display: none; } </style>
   </head>
-  <body>
+  <body style="background:#25e0e0">
 
-    <h2>Cyber Nima Chat</h2>
-    <p>This page demonstrates using React with ELIZA library to create a cyber bot.</p>
-    <p>Feel free to chat and say anything. None of your messages will be saved ;) </p>
-
-    <!-- We will put our React component inside this div. -->
-    <div id="like_button_container"></div>
-
+    <div class="container">  
+      <!-- We will put our React component inside this div. -->
+      <div id="cybermeapp"></div>
+    </div>
 
   </body>
 </html>

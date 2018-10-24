@@ -7,5 +7,5 @@ import CyberMe from './cyberMe.jsx';
 
 ReactDOM.render(
   <CyberMe />, 
-  document.getElementById('like_button_container')
+  document.getElementById('cybermeapp')
 );

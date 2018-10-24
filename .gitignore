@@ -3,3 +3,6 @@
 
 # Node moduels
 node_modules
+
+# distribution folder must get generated
+dist/

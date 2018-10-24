@@ -1,4 +1,4 @@
 # cyberMe
 This is a fun personal project which allows you to talk to a cyber Nima
 
-...More to come
+Build the project by running % npm run build 
